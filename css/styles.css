@@ -1,0 +1,237 @@
+:root {
+    --primary-background-color:#FFFFFF;
+    --primary-text-color:#757575;
+    --secondary-text-color:#212121;
+    --accent-color:#F5F4FA;
+    --accent-button-color:#2196F3;
+    
+}
+
+
+
+body{
+    background: rgba(255, 255, 255, 1);
+    color: #757575;
+
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+}
+
+ul {
+    list-style:none;
+}
+
+/* logo */
+
+.logo {
+    color:rgba(33, 150, 243, 1);
+    font-family: Raleway, cursive;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+.logo .logo-studio {
+    color:rgba(0, 0, 0, 1);
+    font-family: Raleway, cursive;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+.logo .logo-studio-footer {
+    color: rgba(255, 255, 255, 1);
+    font-family: Raleway, cursive;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+
+
+
+/* site nav */
+.site-nav .link {
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+}
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: #2196F3;
+}
+
+.site-nav .link.current {
+    color: #2196F3;
+}
+
+/* communication*/
+.communication .contact {
+    color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+}
+
+.communication .contact:hover, 
+.communication .contact:focus {
+    color: #2196F3;
+}
+
+h3 {
+    color: #212121;
+}
+
+/* hero */
+.hero {
+    color: #FFFFFF;
+    background: #2F303A;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+
+/* section-advantages */
+.section-advantages .advantages {
+    color: #212121;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
+.section .section-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+
+.section-examples .examples {
+    color: #212121;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.section {
+    background: #F5F4FA;
+}
+.section-team {
+    color: #212121;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.team .team-person {
+    background: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+}
+.team-person .person-position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+/* project */
+
+.project .project-title {
+    color: #212121;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.project .project-type {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+}
+
+/* footer */
+
+.footer {
+    background: #2F303A;
+}
+
+.address .address-street {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+.address-contact .address-contact-title {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.address .address-street:hover,
+.address .address-street:focus {
+    color: #2196F3;
+}
+.address-contact .address-contact-title:hover, 
+.address-contact .address-contact-title:focus {
+    color: #2196F3;
+}
+
+/* button */
+.button-service {
+    color: #FFFFFF;
+    background:#2196F3;
+    border-color:rgba(0, 0, 0, 0.15);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.button .button-work {
+    color: #212121;
+    background:#F5F4FA;
+    border-color:#F5F4FA;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.button .button-work:hover,
+.button .button-work:focus {
+    color: #FFFFFF;
+    background: #2196F3;
+}
+
+.button .button-work.current {
+    background: rgba(33, 150, 243, 1);
+    color: #FFFFFF;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
