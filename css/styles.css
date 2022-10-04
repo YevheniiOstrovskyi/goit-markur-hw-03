@@ -219,6 +219,11 @@ h3 {
     cursor: pointer;
 }
 
+.hero .button-service:hover,
+.hero .button-service:focus {
+    background: #188CE8;
+}
+
 .button .button-work {
     color: #212121;
     background:#F5F4FA;
