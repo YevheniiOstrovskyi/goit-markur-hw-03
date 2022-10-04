@@ -29,6 +29,7 @@ ul {
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
+    text-decoration-line: none;
 }
 .logo .logo-studio {
     color:rgba(0, 0, 0, 1);
@@ -36,6 +37,7 @@ ul {
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
+
 }
 .logo .logo-studio-footer {
     color: rgba(255, 255, 255, 1);
@@ -54,6 +56,7 @@ ul {
     font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.02em;
+    text-decoration-line: none;
 }
 .site-nav .link:hover, 
 .site-nav .link:focus {
@@ -71,6 +74,7 @@ ul {
     font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.02em;
+    text-decoration-line: none;
 }
 
 .communication .contact:hover, 
@@ -84,8 +88,11 @@ h3 {
 
 /* hero */
 .hero {
-    color: #FFFFFF;
     background: #2F303A;
+}
+
+.hero .hero-title {
+    color: #FFFFFF;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
@@ -104,7 +111,7 @@ h3 {
     text-transform: uppercase;
 }
 
-.section .section-description {
+.section-advantages .section-description {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
@@ -132,6 +139,10 @@ h3 {
 
 .team .team-person {
     background: #FFFFFF;
+}
+
+
+.team .team-person .person {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
@@ -166,33 +177,38 @@ h3 {
     background: #2F303A;
 }
 
-.address .address-street {
+.address-contact .address-street {
     color: #FFFFFF;
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
+    text-decoration-line: none;
 }
 .address-contact .address-contact-title {
     color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
+    text-decoration-line: none;
 }
 
-.address .address-street:hover,
-.address .address-street:focus {
+.address-contact .address-street:hover
+{
     color: #2196F3;
 }
-.address-contact .address-contact-title:hover, 
-.address-contact .address-contact-title:focus {
+.address-contact .address-contact-title:hover
+{
     color: #2196F3;
 }
 
 /* button */
-.button-service {
+.hero .button-service {
     color: #FFFFFF;
     background:#2196F3;
     border-color:rgba(0, 0, 0, 0.15);
+    font-family: Roboto;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
@@ -200,16 +216,19 @@ h3 {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    cursor: pointer;
 }
 
 .button .button-work {
     color: #212121;
     background:#F5F4FA;
     border-color:#F5F4FA;
+    font-family: Roboto;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
     text-align: center;
+    cursor: pointer;
 }
 
 .button .button-work:hover,
@@ -219,7 +238,7 @@ h3 {
 }
 
 .button .button-work.current {
-    background: rgba(33, 150, 243, 1);
+    background:  #2196F3;
     color: #FFFFFF;
 }
 
