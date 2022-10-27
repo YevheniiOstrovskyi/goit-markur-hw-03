@@ -164,9 +164,6 @@ h3 {
 .hero {
     background: #2F303A;
     text-align: center;
-}
-
-.hero-hero {
     padding-top: 200px;
     padding-bottom: 200px;
 }
@@ -211,10 +208,13 @@ h3 {
 
 /* section-advantages */
 
-.advantages {
-    display: flex;
+.section-advantages {
     padding-top: 94px;
     padding-bottom: 94px;
+}
+
+.advantages {
+    display: flex;
 }
 
 .advantages .item {
@@ -355,7 +355,7 @@ h3 {
     font-size: 18px;
     line-height: 36px;
     letter-spacing: 0.06em;
-    padding-bottom: 4px;
+    margin-bottom: 4px;
 }
 
 .project .project-type {
@@ -457,8 +457,8 @@ h3 {
 }
 
 .button .button-work {
+    border: none;
     box-shadow: none;
-    display: inline-block;
     color: #212121;
     background:#F5F4FA;
     border-color:#F5F4FA;
@@ -472,36 +472,26 @@ h3 {
 
 .button .button-everyone {
     padding: 6px 25px;
-    left: 512px;
-    top: 174px;
     min-width: 73px;
 }
 
 .button .button-website {
     padding: 6px 22px;
-    left: 593px;
-    top: 174px;
     min-width: 125px;
 }
 
 .button .button-addition {
     padding: 6px 22px;
-    left: 726px;
-    top: 174px;
     min-width: 112px;
 }
 
 .button .button-design {
     padding: 6px 22px;
-    left: 846px;
-    top: 174px;
     min-width: 103px;
 }
 
 .button .button-marketing {
     padding: 6px 22px;
-    left: 957px;
-    top: 174px;
     min-width: 130px;
 }
 
